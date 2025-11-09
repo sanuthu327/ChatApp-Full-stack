@@ -1,0 +1,17 @@
+body{font-family:Arial,Helvetica,sans-serif;margin:0}
+.container{max-width:1000px;margin:12px auto;padding:12px}
+header{display:flex;justify-content:space-between;align-items:center}
+main{display:flex;gap:12px}
+.users{width:260px}
+.userRow{border:1px solid #eee;padding:8px;margin-bottom:8px;border-radius:6px;cursor:pointer}
+.chat{flex:1;display:flex;flex-direction:column}
+.messages{flex:1;overflow:auto;padding:8px;border:1px solid #eee;border-radius:6px}
+.bubble{padding:8px;margin:6px;border-radius:8px;max-width:70%}
+.me{align-self:flex-end;background:#DCF8C6}
+.other{align-self:flex-start;background:#fff}
+.inputBar{display:flex;gap:8px;margin-top:8px}
+.muted{color:#666}
+.card{border:1px solid #ddd;padding:16px;border-radius:8px;min-width:320px}
+.center{display:flex;align-items:center;justify-content:center;height:100vh}
+input{display:block;width:100%;padding:8px;margin:8px 0;border-radius:6px;border:1px solid #ccc}
+button{padding:8px 12px;border-radius:6px;border:none;background:#111;color:#fff}
